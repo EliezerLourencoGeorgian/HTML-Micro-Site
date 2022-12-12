@@ -1,0 +1,78 @@
+
+html{
+  /*background image*/
+  background-image: url("images/Game_Boy_Background.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Press Start 2P';font-size: 10px;
+  background-size: cover;
+}
+
+header{
+  color: #073a03;
+  font-size: 100%
+}
+
+header{
+  position: fixed;
+  margin-top: 12%;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  text-shadow: 2px 2px green;
+}
+
+main{
+  position: fixed;
+  top:750px;
+  right: 60%;
+  left: 34%;
+  width: 32%;
+  font-size: 12px;
+  text-align: center;
+  color: #b5b0b0;
+  text-shadow: 2px 2px black;
+}
+
+
+figure {
+  position: fixed;
+  left: 35%;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+figure {
+  height: 400px;
+  overflow: hidden; 
+}
+
+figure img {
+  transition: transform .8s ease;
+}
+
+figure:hover img {
+  transform: scale(1.2);
+}
+
+#blockGallery {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#blockGallery li {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+#blockCaption {
+	text-indent: 0;
+	text-align: left;
+}

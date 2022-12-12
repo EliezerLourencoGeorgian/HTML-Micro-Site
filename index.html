@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <title>Game Boy</title>
+  <meta name="author" content="Eliezer Lourenco and Nicolas" />
+		<meta name="description" content="Game Boy handheld console and its features">
+  	<link rel="stylesheet" href="..style.css" />
+  
+  <meta charset="utf-8"/>
+  
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Press Start 2P');
+    </style>
+
+  
+ <!-- <figure>
+  <p><img src="images/Game_Boy_Background.jpg" position="fixed" width="136" height="200" alt="Ring">
+  <figcaption>The One Ring.</figcaption>
+  </figure> -->
+
+  
+</head>
+
+  <h1>Tabs</h1>
+
+<div class="tab">
+  <button class="tablinks" onclick="openOption(event, 'Promotion Details')">London</button>
+  <button class="tablinks" onclick="openOption(event, 'About Game Boy')">Paris</button>
+  <button class="tablinks" onclick="openOption(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<div id="Promotion " class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+<body>
+  <header>
+    <img src="../images/Nintendo_Game_Boy_Logo.png" height="100" width="300" alt="HTML" />
+  <ul id="pages">
+    <li>
+      <a href="/promotion_details.html">Promotion Details</a>
+    </li>
+     <li>
+      <a href="/about_the_product.html">About the Product</a>
+    </li>
+    <script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+  
+  </header>
+
+  
+  <main>
+  
+   <!-- NEW LINE CINEMA <small>PRESENTS</small> A WINGNUT <small></small>PRODUCTION THE LORD OF THE RINGS: “THE FELLOWSHIP OF THE RING”
+ELIJAH WOOD  IAN McKELLEN  LIV TYLER  VIGGO MORTENSEN  SEAN ASTIN  CATE BLANCHETT  JOHN RHYS DAVIES  BILLY BOYD  DOMINIC MONAGHAN  ORLANDO BLOOM
+CHRISTOPHER LEE  HUGO WEAVING  <small></small>FEATURING SEAN BEAN <small>AND</small> IAN HOLM <small>WITH</small> ANDY SERKIS AS GOLLUM  <small>UK CASTING BY</small>  JOHN HUBBARD <small>AND</small> AMY MACLEAN <small>COSTUME DESIGNERS</small>  NGILA DICKSON  RICHARD TAYLOR <small>SPECIAL MAKE-UP, CREATURE, MINIATURE AND DIGITAL EFFECTS BY</small>  WETA LTD. NZ <small>VISUAL EFFECTS SUPERVISOR</small>  JIM RYGIEL  <small>MUSIC BY</small>  HOWARD SHORE <small>FILM EDITOR</small>   JOHN GILBERT <small>PRODUCTION DESIGNER</small> GRANT MAJOR  <small>DIRECTOR OF PHOTOGRAPHY</small> ANDREW LESNIE ACS. <small>ASSOCIATE PRODUCE</small>R ELLEN M. SOMERS <small>CO-PRODUCERS</small> RICK PORRAS  JAMIE SELKIRK <small>EXECUTIVE PRODUCERS</small> MARK ORDESKY  BOB WEINSTEN  HARVEY WEINSTEIN <small>EXECUTIVE PRODUCERS</small> ROBERT SHAYE MICHAEL LYNNE <small>PRODUCERS</small> BARRIE M. OSBORNE  PETER JACKSON  FRAN WALSH  TIM SANDERS  <small>BASED ON THE BOOK BY</small> J. R. R. TOLKIEN
+<small>SCREENPLAY BY </small>FRAN WALSH & PHILIPPA BOYENS & PETER JACKSON <font size="+1">DECEMBER 19</font> <small>DIRECTED BY</small> PETER JACKSON 
+America Online Keyword: Lord of the Rings
+<a href="https://www.warnerbros.com/movies/lord-rings-fellowship-ring">www.lordoftherings.net</a> -->
+
+  </main>
+
+    
+  </body>
+</html>
+
