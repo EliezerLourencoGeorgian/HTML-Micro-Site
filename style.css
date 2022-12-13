@@ -1,5 +1,6 @@
+@charset "UTF-8";
 
-html{
+body.home-page {
   /*background image*/
   background-image: url("images/Game_Boy_Background.jpg");
   height: 100%;
@@ -9,18 +10,98 @@ html{
   background-size: cover;
 }
 
+body.second-page {
+    /*background image*/
+  background-image: url("images/Game_Boy_Price.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Press Start 2P';
+  margin-left: 45%;
+  margin-right: 1%;
+  margin-top: 12%;
+  background-position: center;
+  scroll-behavior: smooth;
+  text-align: justify;
+  text-justify: inter-word;
+ 
+}
+
+body.third-page {
+    /*background image*/
+  background-image: url("images/Game_Boy_Background_2.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Press Start 2P';
+  margin-left: 45%;
+  margin-right: 1%;
+  margin-top: 12%;
+  background-size: cover;
+  scroll-behavior: smooth;
+  text-align: justify;
+  text-justify: inter-word;
+ 
+}
+
+body.forth-page {
+    /*background image*/
+  background-image: url("images/gameboy(1).jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Press Start 2P';
+  margin-left: 45%;
+  margin-right: 1%;
+  margin-top: 12%;
+  background-size: cover;
+  scroll-behavior: smooth;
+  text-align: justify;
+  text-justify: inter-word;
+ 
+}
+h1{
+  color: #000000;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
 header{
   color: #073a03;
   font-size: 100%
 }
 
-header{
+figure{
   position: fixed;
   margin-top: 12%;
+  margin-bottom: 20%;
   width: 100%;
   text-align: center;
-  font-size: 15px;
-  text-shadow: 2px 2px green;
+  margin: 0.5em;
+  padding: 0.5em;
+  position: fixed;
+  left: 35%;
+  width: 30%;
+  text-align: center;
+  text-indent: 0;
+}
+
+figure img {
+  transition: transform .8s ease;
+}
+
+figure:hover img {
+  transform: scale(1.2);
+}
+
+h2{
+  position: fixed;
+  margin-top: 13%;
+  right: 1%;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 2px 2px #fad900;
 }
 
 main{
@@ -35,44 +116,17 @@ main{
   text-shadow: 2px 2px black;
 }
 
-
-figure {
-  position: fixed;
-  left: 35%;
-  width: 30%;
-  text-align: center;
-  font-style: italic;
-  font-size: smaller;
-  text-indent: 0;
-  margin: 0.5em;
-  padding: 0.5em;
+a{
+  text-decoration: none;
+  line-height: 3;
+  color: #ff0000;
 }
 
-figure {
-  height: 400px;
-  overflow: hidden; 
-}
 
-figure img {
-  transition: transform .8s ease;
-}
 
-figure:hover img {
-  transform: scale(1.2);
-}
 
-#blockGallery {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
 
-#blockGallery li {
-	display: inline-block;
-	margin-right: 1rem;
-}
 
-#blockCaption {
-	text-indent: 0;
-	text-align: left;
-}
+
+
+
